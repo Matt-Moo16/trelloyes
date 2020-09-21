@@ -6,7 +6,7 @@ import Card from './Card'
 function List(props) {
     return (
     <section className="List">
-        <header class="List-header">
+        <header className="List-header">
           <h2>{props.header}</h2>
         </header>
         <div className="List-cards">
@@ -17,7 +17,7 @@ function List(props) {
                 content={card.content}
             />
             )}
-            <button type="button" class="List-add-button">
+            <button type="button" className="List-add-button">
               + Add Random Card
             </button>
         </div>

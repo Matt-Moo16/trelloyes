@@ -16,7 +16,7 @@ class App extends Component {
     const {store} = this.props
     return (
       <main className='App'>
-        <header class="App-header">
+        <header className="App-header">
           <h1>Trelloyes!</h1>
         </header>
         <div className="App-list">
